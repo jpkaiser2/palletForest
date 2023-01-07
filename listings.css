@@ -1,0 +1,246 @@
+    .img{
+      max-width:  150px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .radButton{
+        border: none;
+        color: #243E36;
+    }
+
+        /* The Modal (background) */
+    .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    }
+
+    /* The Close Button */
+    .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    .map { 
+        width: 30%; 
+    }
+    body{
+        margin: 0;
+        background-color: #f7f7f7;
+        font-family: 'Nunito', sans-serif;
+        
+    }
+    .locText{
+        color: gray;
+    }
+   
+    
+    .topBox{
+        background-color: #243E36;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    .xxl{
+        font-size: 80px;
+    }
+    .centerDiv{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    ul {
+ 
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-size: x-large;
+      width: 100%;
+      background: #F1F1F1;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+    }
+    
+    li {
+      float: left;
+    }
+    .radButt{
+      border: none;
+    }
+    
+    li a {
+      display: block;
+      color: #243E36;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: white;
+      color:#243E36;
+    }
+
+    .color{
+        color: #243E36;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+    textarea{
+        width: 100%;
+        height: 40px;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 4px;
+        background-color: #f7f7f7;
+        resize: none;
+    }
+    .searchBox {
+        width: 60%;
+        border: none;
+        border-right: none;
+        padding: 10px;
+        height: 30%;
+        border-radius: 30px 0 0 30px;
+        outline: none;
+        color: #a6a6a6;
+        background-color: white;
+        font-size: large;
+    }
+
+
+    .searchBtn {
+        width: fit-content;
+        border: none;
+        border-right: none;
+        padding: 10px;
+        height: 30%;
+        border-radius: 0 30px 30px 0;
+        outline: none;
+        color: #a6a6a6;
+        background-color: white;
+        font-size: large;
+        cursor: pointer;
+    }
+
+
+    .sidenav {
+        width: 20%;
+        height: 100%;
+        position: fixed;
+        background: #eee;
+    }
+
+    @media screen and (max-height: 450px) {
+        
+    }
+.card {
+   transition: 0.3s;
+   width: 250px;  
+   height: fit-content;
+   flex: 1 0 21%;
+
+   padding: 2%;
+   background: #F1F1F1;
+   border-radius: 38px;
+   color:#243E36;
+}
+
+.card:hover{
+   background-color: white
+}
+
+
+
+.container {
+  padding: 2px 16px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+location{
+    font-size: 22px;
+    color:#243E36;
+}
+listingTitle{
+    font-size: 44px;
+    color:#243E36;
+}
+listings{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    line-height: 60px;
+    margin: 10px;
+    align-content: space-around;
+
+}
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .card{
+      width: 90%
+  }
+}
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.map {
+        height: 400px;
+        width: 100%;
+      }
+      .listingContainerFull{
+        font-family: 'Nunito', sans-serif;
+    }
+             
+    .btn-grad {
+            background-image: linear-gradient(to right, #243E36 0%, #0d8a65  51%, #243E36  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            border: none;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
